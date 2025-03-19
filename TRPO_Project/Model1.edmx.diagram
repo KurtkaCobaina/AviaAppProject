@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e5dc45a30d6d4201a1e2e40ab5384ecd" Name="Diagram1">
+        <EntityTypeShape EntityType="TRPOModel.Airports" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TRPOModel.Bookings" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TRPOModel.Flights" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="TRPOModel.Payments" Width="1.5" PointX="7.5" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TRPOModel.Users" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <AssociationConnector Association="TRPOModel.FK__Flights__Arrival__276EDEB3" ManuallyRouted="false" />
+        <AssociationConnector Association="TRPOModel.FK__Flights__Departu__267ABA7A" ManuallyRouted="false" />
+        <AssociationConnector Association="TRPOModel.FK__Bookings__Flight__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="TRPOModel.FK__Bookings__UserID__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="TRPOModel.FK__Payments__Bookin__300424B4" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
